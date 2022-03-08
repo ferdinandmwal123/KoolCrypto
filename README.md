@@ -96,13 +96,19 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Setup
+- [ ] Implement API & models
+- [ ] Implement use cases
+- [ ] Set up repository
+- [ ] Dependency injection w/Dagger
+- [ ] Implement ViewModels
+- [ ] Presentation layer
+
+[comment]: <> (- [ ] Multi-language Support)
+
+[comment]: <> (    - [ ] Chinese)
+
+[comment]: <> (    - [ ] Spanish)
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -142,7 +148,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/ferdinandmwal123/KoolCrypto.git](https://github.com/ferdinandmwal123/KoolCrypto.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
