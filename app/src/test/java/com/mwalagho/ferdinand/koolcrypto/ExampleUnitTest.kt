@@ -1,4 +1,4 @@
-package com.mwalagho.ferdinand.mvvmcompose
+package com.mwalagho.ferdinand.koolcrypto
 
 import org.junit.Test
 

@@ -58,20 +58,21 @@ How to install the app (Linux)
   ```sh
   sudo apt install default-jdk
   ```
-<!--TODO(01): Complete remainder of README once app is done-->
+
+* android-studio
+[android-studio](https://developer.android.com/studio)
+  
+
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
+How to install:
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/ferdinandmwal123/KoolCrypto.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
+3. Run gradle build
+
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
@@ -95,13 +96,19 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Setup
+- [ ] Implement API & models
+- [ ] Implement use cases
+- [ ] Set up repository
+- [ ] Dependency injection w/Dagger
+- [ ] Implement ViewModels
+- [ ] Presentation layer
+
+[comment]: <> (- [ ] Multi-language Support)
+
+[comment]: <> (    - [ ] Chinese)
+
+[comment]: <> (    - [ ] Spanish)
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -141,7 +148,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/ferdinandmwal123/KoolCrypto.git](https://github.com/ferdinandmwal123/KoolCrypto.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

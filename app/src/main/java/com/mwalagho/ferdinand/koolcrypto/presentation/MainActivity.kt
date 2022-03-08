@@ -1,4 +1,4 @@
-package com.mwalagho.ferdinand.mvvmcompose
+package com.mwalagho.ferdinand.koolcrypto.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,13 +10,13 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.mwalagho.ferdinand.mvvmcompose.ui.theme.MVVMComposeTheme
+import com.mwalagho.ferdinand.koolcrypto.presentation.ui.theme.KoolCryptoTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MVVMComposeTheme {
+            KoolCryptoTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -37,7 +37,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    MVVMComposeTheme {
+    KoolCryptoTheme {
         Greeting("Android")
     }
 }

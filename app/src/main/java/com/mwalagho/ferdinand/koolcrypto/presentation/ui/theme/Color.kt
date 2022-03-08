@@ -1,4 +1,4 @@
-package com.mwalagho.ferdinand.mvvmcompose.ui.theme
+package com.mwalagho.ferdinand.koolcrypto.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
