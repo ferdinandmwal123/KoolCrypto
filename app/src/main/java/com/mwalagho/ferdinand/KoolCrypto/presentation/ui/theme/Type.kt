@@ -1,4 +1,4 @@
-package com.mwalagho.ferdinand.mvvmcompose.ui.theme
+package com.mwalagho.ferdinand.KoolCrypto.presentation.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

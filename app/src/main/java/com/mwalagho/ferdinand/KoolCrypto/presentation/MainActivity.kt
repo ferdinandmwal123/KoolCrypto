@@ -1,4 +1,4 @@
-package com.mwalagho.ferdinand.koolcrypto
+package com.mwalagho.ferdinand.KoolCrypto.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.mwalagho.ferdinand.mvvmcompose.ui.theme.KoolCryptoTheme
+import com.mwalagho.ferdinand.KoolCrypto.presentation.ui.theme.KoolCryptoTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
