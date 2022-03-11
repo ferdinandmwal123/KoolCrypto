@@ -2,6 +2,8 @@ package com.mwalagho.ferdinand.koolcrypto.di
 
 import com.mwalagho.ferdinand.koolcrypto.common.Constants
 import com.mwalagho.ferdinand.koolcrypto.data.remote.CoinPaprikaAPI
+import com.mwalagho.ferdinand.koolcrypto.data.repository.CoinRepositoryImpl
+import com.mwalagho.ferdinand.koolcrypto.domain.repository.CoinRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -30,5 +32,9 @@ object AppModule {
 
     }
 
-    @
+    @Provides
+    @Singleton
+    fun provideCoinRepository(api: CoinPaprikaAPI):CoinRepository{
+        return CoinRepositoryImpl(api)
+    }
 }
