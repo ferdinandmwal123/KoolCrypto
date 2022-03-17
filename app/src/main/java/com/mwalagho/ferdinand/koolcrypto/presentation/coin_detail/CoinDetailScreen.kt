@@ -22,7 +22,7 @@ import com.mwalagho.ferdinand.koolcrypto.presentation.coin_detail.components.Tea
 
 
 @Composable
-fun CoinListScreen(
+fun CoinDetailScreen(
     viewModel: CoinDetailViewModel = hiltViewModel()
 ) {
     val state = viewModel.state.value
