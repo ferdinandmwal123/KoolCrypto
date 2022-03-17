@@ -97,12 +97,16 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Setup
-- [ ] Implement API & models
-- [ ] Implement use cases
-- [ ] Set up repository
-- [ ] Dependency injection w/Dagger
-- [ ] Implement ViewModels
-- [ ] Presentation layer
+- [x] Implement API & models
+- [x] Implement use cases
+- [x] Set up repository
+- [x] Dependency injection w/Dagger
+- [x] Implement ViewModels
+- [x] Presentation layer
+- [ ] Refactor package structure
+- [ ] Implement caching
+- [ ] Implement logging w/ okHttp
+- [ ] Customize UI
 
 [comment]: <> (- [ ] Multi-language Support)
 
